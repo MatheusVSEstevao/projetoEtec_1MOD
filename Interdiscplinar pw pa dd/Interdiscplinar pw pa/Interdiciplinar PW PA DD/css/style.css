@@ -1,0 +1,58 @@
+body{
+background-color:#fffdfd;
+font-size: 16px;
+font-family: Verdana ;
+margin-top: 3%;
+margin-left: 3%;
+color: black;
+}
+.LReposta{
+    text-align: end;
+}
+.calculadora{
+background-color: rgb(#924646);
+border: 2px;
+margin-left: 30%;
+margin-top: 3%;
+color: black;
+
+}
+.tabela{ 
+    font-family: Verdana ;
+    text-align: justify;
+    background-color: whitesmoke;
+}
+button{
+  height: 32px;
+  width: 96px;
+}
+
+.botao{
+margin-right: -20%;
+
+}
+
+
+#btcalcular{
+background-color: #924646;
+    color: black;
+    font-size: 16px;
+    font-family: Verdana ;
+  margin-left: 0%;
+  height: 32px;
+  width: 96px;
+
+}
+#reset{
+    background-color: #924646;
+    color: black;
+    font-size: 16px;
+    font-family: Verdana ;
+  margin-left: 37%;
+    height: 32px;
+    width: 96px;
+
+}
+.ax{
+  margin-left: 40%;
+}

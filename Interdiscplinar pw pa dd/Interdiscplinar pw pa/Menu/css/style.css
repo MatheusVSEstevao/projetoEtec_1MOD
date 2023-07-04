@@ -1,0 +1,39 @@
+.menu{
+    display: flex;
+    list-style-type: none;
+    margin-left: 25%;
+}
+
+.menubar{
+    background-color: whitesmoke;
+}
+.submenu{
+    letter-spacing: 1,5px;
+  
+}
+
+li {
+    display: inline-block;
+    padding: 5px 10px;
+
+}
+
+li:hover > ul {
+    display: contents;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+ul ul li{
+    display: block;
+}
+ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}

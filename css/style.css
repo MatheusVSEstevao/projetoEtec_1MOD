@@ -1,0 +1,66 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --corFundo : #ffffff;
+    --corHover : #785996;
+    --corPrimaria : #000000;
+}
+
+.dpMenu ul{
+    list-style-type: none;
+    padding:0;
+}
+
+.dpMenu ul{
+    background-color: var(--corFundo);
+}
+
+.dpMenu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.dpMenu ul li a{
+    color: var(--corPrimaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+.dpMenu ul li a:hover{
+    background-color: var(--corHover);
+}
+
+/*sub menu*/
+
+.dpMenu ul ul{
+    display: none;
+    position: absolute;
+    left: 0
+    
+}
+
+.dpMenu ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+
+.dpMenu ul ul {
+    width: 150px;
+}
+
+.dpMenu ul ul li a{
+    display: block
+}
+
+body{
+    background-image: url(../img/pessoas-muito-inteligentes-1.jpg);
+    background-size: cover;
+}
+
+.logo{
+    display: flex;
+    justify-content: center ;
+    padding: 15%;
+}
+
+

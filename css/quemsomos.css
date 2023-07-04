@@ -1,0 +1,12 @@
+*{
+    color: solid black;
+    font-size: 34px;
+}
+body{
+    background-image: url(../img/mano-inteligente-engrenagem.jpg);
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    justify-content: right ;
+}

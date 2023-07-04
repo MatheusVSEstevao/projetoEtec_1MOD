@@ -1,0 +1,13 @@
+*{
+    color: white;
+    font-size: 34px;
+}
+body{
+    background-image: url(../img/como-se-preparar-para-a-matematica-de-nivel-universitario.jpg);
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    justify-content: left ;
+    padding left: 15%;
+}

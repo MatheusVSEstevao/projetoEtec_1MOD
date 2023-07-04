@@ -1,0 +1,14 @@
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.main-footer .LogoRod{
+    margin-bottom: 15px;
+}
+.main-footer .title{
+    color: solid black;
+    font-size: 30px;
+     
+}

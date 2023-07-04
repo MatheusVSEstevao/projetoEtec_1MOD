@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora do 2º grau</title>
+    <link rel="stylesheet" href="css/calc2grau.css">
+</head>
+<body>
+    <a class="Logo" href="../PA-PW-DD-Menu/index.html">
+        <img src="img/logo2.0-removebg-preview.png" width="150px", height="100px" alt="Home">
+    </a>
+    <div class="header">
+    <h1>Calculadora Equação de Segundo Grau</h1>
+  </div>
+  <div class="container">
+    <div id="calculator">
+      <div class="display">
+        <p id="message">Digite o número a:</p>
+      </div>
+      <div class="buttons">
+        <button class="number" onclick="enterNumber(0)">0</button>
+        <button class="number" onclick="enterNumber(1)">1</button>
+        <button class="number" onclick="enterNumber(2)">2</button>
+        <button class="number" onclick="enterNumber(3)">3</button>
+        <button class="number" onclick="enterNumber(4)">4</button>
+        <button class="number" onclick="enterNumber(5)">5</button>
+        <button class="number" onclick="enterNumber(6)">6</button>
+        <button class="number" onclick="enterNumber(7)">7</button>
+        <button class="number" onclick="enterNumber(8)">8</button>
+        <button class="number" onclick="enterNumber(9)">9</button>
+        <button class="number" onclick="enterNegative()">-</button>
+        <button id="delete" onclick="deleteNumber()">Delete</button>
+        <button id="ok" onclick="nextNumber()">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
